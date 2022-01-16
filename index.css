@@ -115,7 +115,7 @@ body {
 }
 
 .up-button {
-	display: block;
+	display: none;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
@@ -124,4 +124,9 @@ body {
 	background: #ec6b44;
 	box-shadow: 0px 0px 2px #888;
 	padding: 10px 13px;
+	cursor: pointer;
+}
+
+.show-button {
+	display: block;
 }
